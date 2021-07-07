@@ -15,7 +15,7 @@ public class mylock implements Lock {
             }
             return false;
         }
-//-------------
+//-------------...................
         @Override
         protected boolean tryRelease(int arg) {
             setExclusiveOwnerThread(null);
